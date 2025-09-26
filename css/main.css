@@ -64,21 +64,20 @@ form input, form textarea {
   padding: .5rem 1rem;
 
 }
-
-form textarea {
-  min-height: 150px;
-  max-height: 150px;
-  height: 150px;
-  resize: none;
-
-}
-
 form button {
   background: black;
   border: 2px solid black;
   color: white;
   padding: 1rem;
   text-transform: uppercase;
+
+}
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+
 
 }
 form button:hover, form button:focus {
