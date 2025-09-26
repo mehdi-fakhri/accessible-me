@@ -14,10 +14,10 @@
 
   <body>
     <a href="#main-content" class="skip-link">Skip to main  content</a>
-    <div class="container" itemscope itemtype="Organization">
-      <header class="site-header" role="banner">
+    <div class="container" itemscope itemtype="https://schema.org/Organization">
+      <header class="site-header">
         <h1 itemprop="name">Jam Box Studios</h1>
-        <nav class="main-nav" role="navigation">
+        <nav class="main-nav">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#products">Products</a></li>
@@ -26,10 +26,10 @@
           </ul>
         </nav>
         <img
-          src="https://placekitten.com/1200/900"class="banner"alt="Jam Box Studios banner"/>
+          src="https://picsum.photos/1200/900" class="banner" alt="Jam Box Studios banner">
       </header>
 
-      <main id="main-content" class="main-content" role="main">
+      <main id="main-content" class="main-content">
         <h2>Welcome to Jam Box</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
@@ -43,10 +43,7 @@
             fugit culpa voluptatibus, inventore eaque, eligendi voluptatum!
             Voluptate iusto error voluptatibus.
         </p>
-        <section 
-          class="owner" role="region" aria-labelledby="owner-heading" itemscope itemtype="Person">
-        </section>         
-
+        <div class="owner" aria-labelledby="owner-heading" itemscope itemtype="https://schema.org/Person">
           <h2 id="owner-heading">Meet the owner</h2>
           <ul>
             <li><span itemprop="name">John Doe</span></li>
@@ -65,24 +62,20 @@
             <span itemprop="addressRegion">Danceistan</span>,
             <span itemprop="postalCode">B3T 0L0</span>
           </address>
-        </section>
+        </div>
 
-        <section aria-labelledby="contact-heading" itemscope itemtype="ContactPoint" class="contact-section" role="form"></section>
-          
-         
-         
-          
+        <section aria-labelledby="contact-heading" itemscope itemtype="ContactPoint" class="contact-section" role="form">
        
           <h2 id="contact-heading">Contact Us</h2>
           <form action="thanks.html">
             <label for="full-name">Full Name</label>
-            <input id="full-name" type="text" placeholder="Full Name" />
+            <input id="full-name" type="text" placeholder="Full Name">
 
             <label for="email">Email</label>
-            <input id="email" type="email" placeholder="Email" />
+            <input id="email" type="email" placeholder="Email">
 
             <label for="subject">Subject</label>
-            <input id="subject" type="text" placeholder="Subject" />
+            <input id="subject" type="text" placeholder="Subject">
 
             <label for="message">Your Message</label>
             <textarea id="message"></textarea>
